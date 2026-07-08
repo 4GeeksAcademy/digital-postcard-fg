@@ -1,0 +1,106 @@
+/*
+    Digital Postcard Stylesheet
+    Custom design by Francisco Garcia
+    HTML5 & CSS3 Practice Project - 4Geeks Academy
+
+    Notes:
+    This stylesheet was created to style a personalized digital postcard,
+    including layout, typography, spacing, form fields, and button styling.
+*/
+
+/* =========================
+   Global Styles
+========================= */
+
+body {
+    background: black;
+    font-family: "Handlee", cursive;
+}
+
+/* =========================
+   Postcard Container
+========================= */
+
+.postcard {
+    background: white;
+    width: 400px;
+    height: 300px;
+    margin: 100px auto;
+    padding: 15px;
+}
+
+/* =========================
+   Header
+========================= */
+
+.postcard-header {
+    display: flex;
+    align-items: center;
+}
+
+.postcard-header h1 {
+    margin: 0;
+    width: 100%;
+    font-size: 35px;
+}
+
+.postcard-header img {
+    width: 50px;
+    height: 50px;
+}
+
+/* =========================
+   Postcard Body Layout
+========================= */
+
+.postcard-body {
+    display: flex;
+}
+
+/* =========================
+   Message Text
+========================= */
+
+.body-left {
+    width: 50%;
+}
+
+.body-right {
+    width: 50%;
+    padding-top: 15px;
+}
+
+.body-left p {
+    font-size: 18px;
+}
+
+/* =========================
+   Form Fields
+========================= */
+
+.body-right input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-family: "Handlee", cursive;
+    font-size: 16px;
+}
+
+/* =========================
+   Footer
+========================= */
+
+.postcard-footer {
+    text-align: center;
+}
+
+.postcard-footer button {
+    background: #bdbdbd;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 5px 10px;
+    font-family: "Handlee", cursive;
+    font-size: 16px;
+}
